@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff7fa;
+}
+
+/* HEADER */
+.hero {
+    height: 320px;
+    background: linear-gradient(rgba(255,192,203,0.7), rgba(255,182,193,0.7)),
+                url("../images/karameles.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.hero p {
+    color: white;
+}
+
+/* MENU */
+.menu {
+    text-align: center;
+    background: #fff0f5;
+    padding: 15px;
+}
+
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+    color: #d63384;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #d63384;
+}
+
+/* IMAGE */
+.sakuma-attels {
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/* GALERIJA */
+.gallery img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* MODAL */
+#modal {
+    display: none;
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+
+#modal img {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    margin-top: 50px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: pink;
+    padding: 10px;
+}
